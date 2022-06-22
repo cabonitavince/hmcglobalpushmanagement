@@ -1,0 +1,56 @@
+{
+  "userTypes": [
+    {
+      "userTypeName": "HMC",
+      "accessCode": "ABC456",
+      "appPrograms": [
+        {
+          "name": "MPElite",
+          "apiKey": "df84049f9f99e0616db4b31248878310afac212f2f1bd5cb3144a05f993c67cf"
+        },
+        {
+          "name": "Centara",
+          "apiKey": "1fb52c9bb8b7b111679cf5d66dfd0a6bf7087553ebb03875abc5f7d043e7980c"
+        },
+        {
+          "name": "Staywell",
+          "apiKey": "9a3cbacb1c3747b8f436878e659fff1ba70c076f17f1933f0ffe162def69a3cc"
+        },
+        {
+          "name": "Caravelle",
+          "apiKey": "19c57bbf90353f20f10724a93e2156a08197a2689f03b48af97ced44cfb9939c"
+        },
+        {
+          "name": "Diamond",
+          "apiKey": "d6c7b78ec3f85a7c3e501c9b049be481d4a62bb68240d171ba4b96ef4412dc68"
+        },
+        {
+          "name": "Travel Select",
+          "apiKey": "4209d2b46f1a6f56f80e947845048f5924feffe78e7b8814b5a95c37d778b82b"
+        },
+        {
+          "name": "Club Sapphire",
+          "apiKey": "0e0654d29c5fc08854897288a0d64e797d25a1fecc7e0534e93cbde874c12c75"
+        },
+        {
+          "name": "The Royal Card",
+          "apiKey": "c565f630c66554305512c0bd845cacf085af90000afaf964c1d2efe891cdf473"
+        },
+        {
+          "name": "Signature Rewards",
+          "apiKey": "c721f214edaeb07b711c4720a4b84040b60857f51c551f4d1bf979bac092bf18"
+        }
+      ]
+    },
+    {
+      "userTypeName": "Gibin Staywell",
+      "accessCode": "GSW555",
+      "appPrograms": [
+        {
+          "name": "Staywell",
+          "apiKey": "9a3cbacb1c3747b8f436878e659fff1ba70c076f17f1933f0ffe162def69a3cc"
+        }
+      ]
+    }
+  ]
+}
