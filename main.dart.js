@@ -21536,14 +21536,21 @@ _.d=d
 _.e=e
 _.f=f},
 a3F:function a3F(){},
-Xr:function Xr(){this.c=this.b=this.a=null},
-a34:function a34(){this.c=this.b=this.a=null},
-a35:function a35(a,b,c){var _=this
-_.a=null
-_.b=a
-_.c=b
-_.d=c
-_.e=null},
+Xr:function Xr(a,b,c){this.a=a
+this.b=b
+this.c=c},
+a34:function a34(a,b,c,d){var _=this
+_.a=a
+_.b=b
+_.c=c
+_.d=d},
+a35:function a35(a,b,c,d,e,f){var _=this
+_.a=a
+_.b=b
+_.c=c
+_.d=d
+_.e=e
+_.f=f},
 a36:function a36(){},
 a0M:function a0M(a){this.a=a},
 rx:function rx(a,b,c){this.a=a
@@ -74053,12 +74060,11 @@ cr(){return A.B(t.O,t.z)}}
 A.Xr.prototype={
 cr(){return A.at(["id",this.a,"title",this.b,"message",this.c,"hasRoute",null,"image",null,"route",null,"routeParameters",null,"important",null],t.O,t.z)}}
 A.a34.prototype={
-cr(){return A.at(["body",this.a,"sound",this.b,"title",this.c],t.O,t.z)}}
+cr(){var s=this
+return A.at(["body",s.a,"sound",s.b,"title",s.c,"badge",s.d],t.O,t.z)}}
 A.a35.prototype={
-cr(){var s,r=this,q=r.a
-q.toString
-s=t.z
-return A.at(["to",A.dZ(new A.av(q,new A.a36(),A.ac(q).i("av<1,@>")),!0,s),"data",r.b.cr(),"content_available",!0,"notification",r.d.cr(),"schedule",r.e],t.O,s)}}
+cr(){var s=this,r=s.a,q=t.z
+return A.at(["to",A.dZ(new A.av(r,new A.a36(),A.ac(r).i("av<1,@>")),!0,q),"data",s.b.cr(),"content_available",!0,"mutable_content",!0,"notification",s.e.cr(),"schedule",s.f],t.O,q)}}
 A.a36.prototype={
 $1(a){return a},
 $S:71}
@@ -74682,50 +74688,44 @@ $0(){return this.a.CW=!1},
 $S:33}
 A.ail.prototype={
 $1(a){return this.QH(a)},
-QH(a){var s=0,r=A.a4(t.P),q=this,p,o,n,m,l,k,j,i,h,g
+QH(a){var s=0,r=A.a4(t.P),q=this,p,o,n,m,l,k,j,i,h
 var $async$$1=A.a5(function(b,c){if(b===1)return A.a1(c,r)
 while(true)switch(s){case 0:s=a?2:3
 break
 case 2:p=q.a
 p.U(new A.aih(p))
-o=new A.Xr()
-n=new A.a34()
-m=new A.a35(o,!0,n)
-m.a=p.ay
-l=new A.abr()
-k=B.f.bB(Date.now(),1000)
-j=$.anU
-if(j==null)j=$.anU=$.ap3().DS(16777215)
-j.toString
-i=$.anU=j+1
-h=l.a1m()
-j=l.a=A.bh(20,0,!1,t.S)
-j[0]=B.f.eZ(k,24)&255
-j[1]=B.f.eZ(k,16)&255
-j[2]=B.f.eZ(k,8)&255
-j[3]=k&255
-j[4]=h[0]
-j[5]=h[1]
-j[6]=h[2]
-g=$.atE
-g.toString
-j[7]=g>>>8&255
-j[8]=g&255
-j[9]=i>>>16&255
-j[10]=i>>>8&255
-j[11]=i&255
-A.aoE(j)
-l=l.a
+o=p.ay
+n=new A.abr()
+m=B.f.bB(Date.now(),1000)
+l=$.anU
+if(l==null)l=$.anU=$.ap3().DS(16777215)
 l.toString
-o.a=B.c.a4(A.aoE(l).toLowerCase(),0,20)
+k=$.anU=l+1
+j=n.a1m()
+l=n.a=A.bh(20,0,!1,t.S)
+l[0]=B.f.eZ(m,24)&255
+l[1]=B.f.eZ(m,16)&255
+l[2]=B.f.eZ(m,8)&255
+l[3]=m&255
+l[4]=j[0]
+l[5]=j[1]
+l[6]=j[2]
+i=$.atE
+i.toString
+l[7]=i>>>8&255
+l[8]=i&255
+l[9]=k>>>16&255
+l[10]=k>>>8&255
+l[11]=k&255
+A.aoE(l)
+n=n.a
+n.toString
+n=B.c.a4(A.aoE(n).toLowerCase(),0,20)
 l=p.f
-o.b=l
-n.a=o.c=p.r
-n.b="ping.aiff"
-n.c=l
-m.e=p.Q?B.e.eE(p.as.a*0.001):null
+i=p.r
+h=p.Q?B.e.eE(p.as.a*0.001):null
 s=4
-return A.a6(p.ch.oO(p.y.b,m).bj(0,new A.aii(p),t.P).nk(new A.aij(p)),$async$$1)
+return A.a6(p.ch.oO(p.y.b,new A.a35(o,new A.Xr(n,l,i),!0,!0,new A.a34(i,"ping.aiff",l,1),h)).bj(0,new A.aii(p),t.P).nk(new A.aij(p)),$async$$1)
 case 4:p.U(new A.aik(p))
 case 3:return A.a2(null,r)}})
 return A.a3($async$$1,r)},
